@@ -1,0 +1,7 @@
+Note-Taking API Endpoints (localhost:3000)
+
+GET     /                          - Начална страница (показва съобщение)
+POST    /add-note                  - Добавя нова бележка
+GET     /get-notes                 - Връща всички бележки
+GET     /search-notes?text=спорт  - Търси по текст в бележките (параметър: text)
+GET     /tag-filter?tag=работа    - Филтрира по етикет (параметър: tag)
